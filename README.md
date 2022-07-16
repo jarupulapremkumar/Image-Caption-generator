@@ -28,11 +28,11 @@ link 1 is the dataset I used here for training.</br>
     - Once we have done vectorix=zation its time to split into train and tes, Since we need to generate sequence we split each caption in below format.
     - Let us first see how the input and output of our model will look like. To make this task into a supervised learning task, we have to provide input and output to the model for training. We have to train our model on 6000 images and each image will contain 2048 length feature vector and caption is also represented as numbers. This amount of data for 6000 images is not possible to hold into memory so we will be using a generator method that will yield batches.
 
-The generator will yield the input and output sequence.
+     - The generator will yield the input and output sequence.
 
-For example:
+          For example:
 
-The input to our model is [x1, x2] and the output will be y, where x1 is the 2048 feature vector of that image, x2 is the input text sequence and y is the output text sequence that the model has to predict.
+          The input to our model is [x1, x2] and the output will be y, where x1 is the 2048 feature vector of that image, x2 is the input text sequence and y is the                output text sequence that the model has to predict.
 
 
 |x1(feature vector)	|x2(Text sequence)|y(word to predict)|
