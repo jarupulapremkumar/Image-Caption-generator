@@ -1,5 +1,6 @@
 # Image-Caption-generator 
 [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/jarupulapremkumar/Image-Caption-generator/blob/main/IMAGE_CAPTION_GENERATOR.ipynb))
+[![Tensorflow](https://img.shields.io/badge/Tensorflow-2.8-orange)](https://www.tensorflow.org/versions/r2.8/api_docs/python/tf)
 ### Summary:
 The objective Of this project is get hands on generating captions to the image or images that are provided.The Dataset Used for training the model is taken kaggle.The dataset is filcker 8k. there different version of this dataset but i took 8k . the link to download the dataset are</br>
 
