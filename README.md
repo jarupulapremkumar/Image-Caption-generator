@@ -1,4 +1,6 @@
-# Image-Caption-generator
+# Image-Caption-generator 
+[![forthebadge python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)]
 ### Summary:
 The objective Of this project is get hands on generating captions to the image or images that are provided.The Dataset Used for training the model is taken kaggle.The dataset is filcker 8k. there different version of this dataset but i took 8k . the link to download the dataset are</br>
 
